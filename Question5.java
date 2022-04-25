@@ -27,6 +27,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int num = in.nextInt();
+    List<int> intlist = new ArrayList<int>();
+    while (num > 0){
+      Scanner in = new Scanner(System.in);
+      int numm = in.nextInt();
+      num -= 1;
+    }
   }
 }
